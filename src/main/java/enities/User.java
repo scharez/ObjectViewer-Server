@@ -1,4 +1,4 @@
-package Enities;
+package enities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,9 +15,7 @@ public class User {
     private String username;
     private String password;
 
-    public User() {
-
-    }
+    public User() {}
 
     public User(long id, String username, String password) {
         this.id = id;
